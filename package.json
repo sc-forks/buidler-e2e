@@ -1,0 +1,30 @@
+{
+  "name": "buidler-e2e",
+  "version": "1.0.0",
+  "description": "A simple Buidler project to check solidity-coverage installation with in CI",
+  "main": "buidler.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc-forks/buidler-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sc-forks/buidler-e2e/issues"
+  },
+  "homepage": "https://github.com/sc-forks/buidler-e2e#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.1",
+    "@nomiclabs/buidler-truffle5": "^1.0.1",
+    "@nomiclabs/buidler-web3": "^1.0.1",
+    "randomstring": "^1.1.5",
+    "web3": "^1.2.4"
+  }
+}
